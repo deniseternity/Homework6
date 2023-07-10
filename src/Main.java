@@ -54,18 +54,17 @@ public static void main(String[] args) {
 
         System.out.println("Задача 9");
 
-    int salary = 29000;
-    int total = 0;
+    int salary1 = 29000;
+    int total1 = 0;
     int yearPercent = 12;
-    int monthPercent = yearPercent / 12
+    int monthPercent = yearPercent / 12;
     for (int i = 0; i < 12; i++) {
-        total = total + total * monthPercent / 100 + salary
+        total = total + total * monthPercent / 100 + salary;
         total = total + salary;
         System.out.println("Месяц" + i + ", сумма накоплений равна" + total + "рублей");
     }
     System.out.println(total);
 
-    public static void ask10){
         System.out.println("Задача 10");
 
         for (int i = 1; i <= 10; i++) {
